@@ -1,0 +1,63 @@
+/* Style the body */
+body {
+  margin: 0;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #00b0f0;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+}
+
+.container {
+  height: auto;
+  vertical-align: middle;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col {
+  margin: auto;
+}
+
+/* Responsive layout - XLarge */
+h3{
+    font-size: 1.5vw;
+}
+p{
+    font-size: 1vw;
+}
+
+/* Responsive layout - Large */
+@media screen and (max-width: 1500px) {
+  h3{
+    font-size: 3vw;
+  }
+  p{
+    font-size: 2vw;
+  }
+}
+
+/* Responsive layout - Medium */
+@media screen and (max-width: 768px) {
+  h3{
+    font-size: 5vw;
+  }
+  p{
+    font-size: 3vw;
+  }
+}
+
+/* Responsive layout - Small */
+@media screen and (max-width: 56px) {
+  h3{
+    font-size: 7vw;
+  }
+  p{
+    font-size: 4vw;
+  }
+}

@@ -1,120 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  lang="en-GB" xml:lang="en-GB">
+
 <head>
-<title>Jacob's Loga</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="shortcut icon" href="/assets/logos/logo_v1_ladder.png"/>
+  <title>Jacob's Loga</title>
 
-<style>
-* {
-  box-sizing: border-box;
-}
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="./index.css"/>
 
-/* Style the body */
-body {
-  margin: 0;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-color: #00b0f0;
-}
-
-
-/* Main Block */
-.main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-  padding: 2vw;
-  height: 100%;
-  background-color:  #00b0f0;
-  font-family: Tahoma, sans-serif;
-  text-align: center;
-}
-
-.main h3{
-  color: white;
-  font-size: 2vw;
-}
-
-.main p{
-  color: white;
-  font-size: 1vw;
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .main {
-    padding: 5vw;
-    width: 100%;
-    height: 100%;
-  }
-
-  .main h3{
-    font-size: 7vw;
-  }
-  .main p{
-    font-size: 4vw;
-  }
-}
-</style>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src= "./index.js" defer="defer"></script>
+</head>
 
 <body>
-<div class="main">
-    <a href="tails_and_tangents.html"><img src="logos/logo_v1_stacked_white.png"; width="100%"> </img></a>
-    <h3><i>Did you know...</i></h3>
-    <p id="rollingText">... that </p>
-</div>
+  <div class="container">
 
+    <!-- Logo -->
+    <div class="row">
+      <div class="col col-10 col-sm-8 col-md-8 col-lg-6 col-xl-6">
+          <a href="/tails_and_tangents/"><img src="/assets/logos/logo_v1_stacked_white.png" width="100%"></img></a>
+      </div>
+    </div>
 
-<script>
-var facts = ["jellyfish sometimes evaporate",
-              "jellyfish sometimes evaporate",
-              "the fastest butterflies in the world can fly at 60km/h",
-              "otters hold hands when they fall asleep",
-              "there are over 40000 species of spider in the world",
-              "bison can run up to 56km/h",
-              "there are around 5000 spines on every hedgehog",
-              "beavers can hold their breath for up to 15 minutes",
-              "butterflies taste with their feet and smell with their tail",
-              "a mouse's facial expression communicates their mood",
-              "eagles can see UV light",
-              "weasels need to eat every 24 hours or they will starve",
-              "ducks feet have no nerves or blood vessels so they dont feel cold",
-              "ospreys can fly up to 430km per day",
-              "some blackbirds are white due to albinism",
-              "owls can rotate their necks 270 degrees",
-              "40% of all insects are beetles",
-              "the Robin became Britains national bird on Dec 15th 1960",
-              "a lynx can spot a mouse 75m away",
-              "a group of owls is called a parliament",
-              "bees do a dance to tell other bees where the best nectar is",
-              "owls have really long legs (look it up and thank me later)",
-              "in all low-income countries across the world today, 60% of girls finish primary school",
-              "the majority of the world's population lives in middle-income countries",
-              "in the last 20 years, the proportion of the world population living in extreme poverty has almost halved",
-              "the average life expectancy of the world today is 70 years",
-              "according to the UN there will be the same number of children, aged 0 to 15, in the world in the year 2100 as there are today",
-              "according to the UN there will be 4 billion more people on Earth than there is today",
-              "over the last 100 years deaths from natural disasters have more than halved",
-              "of the roughly 7 billion people in the world today: 4 million live in Asia and 1 billion live in each of Africa, Europe and America",
-              "80% of one-year-olds worldwide have been vaccinated against some disease",
-              "30-year-old men have spent an average of 10 years in education, while 30-year-old women have spent an average 9 years in education",
-              "since 1996 (when they were first listed as endangered) giant pands, tigers and black rhinos have not become more critically endangered",
-              "80% of people in the world have access to electricity"]
+    <!-- Did you know -->
+    <div class="row">
+      <div class="col col-10 col-sm-8 col-md-8 col-lg-6 col-xl-6">
+        <h3><i>Did you know...</i></h3>
+        <p id="rollingText">... that </p>
+      </div>
+    </div>
 
-var fact_len = facts.length - 1;
-change();
-
-function change() {
-  index = Math.round(Math.random() * fact_len)
-  document.getElementById("rollingText").innerHTML = "... that " + facts[index] + "?"
-  setTimeout(change, 3000);
-}
-</script>
-
+  </div>
 </body>
+
 </html>
