@@ -1,112 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  lang="en-GB" xml:lang="en-GB">
+
 <head>
-<title>About Jacob's Loga</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="shortcut icon" href="/assets/logos/logo_v1_ladder.png"/>
+  <title>Jacob's Loga - About</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="./index.css"/>
 
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  margin: 0;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-color: #00b0f0;
-}
-
-
-/* Style the top navigation bar */
-.navbar {
-  position: fixed;
-  width: 100vw;
-  font-size: 15px;
-  overflow: hidden;
-  background-color: #00b0f0;
-  z-index: 1;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 1vw 1vh;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: white;
-  color: #00b0f0;
-}
-
-/* Main Block */
-.main {
-  text-align: center;
-  background-color: white;
-  color: #00b0f0;
-  margin-left: 5vw;
-  width: 90vw;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translate(0, -25vh);
-  transform: translate(0, -25vh);
-}
-
-/* Images */
-.img {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-  <div class="navbar">
-    <a href="index.html"><img>Take me Back</a>
-    <a href="tails_and_tangents.html">Tails & Tangents</a>
-    <a href="about.html"> What is Jacob's Loga?</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a href="/index.html">Take me Back</a></li>
+      <li class="nav-item"><a href="/tales-and-tangents/index.html">Tales &amp; Tangents</a></li>
+      <li class="nav-item"><a href="/about/index.html"> What is Jacob's Loga?</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col col-10 col-sm-10 col-md-8 col-lg-8 col-xl-8">
+        <h2>What is Jacob's Loga?</h2>
+        <br/><h5>(Jacob's Ladder meets logarithmic growth)</h5>
+        <br/><p>The name Jacob's Loga is a combination of Jacob's Ladder, where teams must work together to climb onto the next level, and logarithmic growth, where the further you progress the easier a challenge gets. This is used as a metaphor for socio-economic development i.e. the more money you have the easier it is to make money.</p>
+        <p>As a consequence of this correlation, escaping poverty is a lot harder than the money needed to escape poverty suggests. If you earn $2 per day or less (like 11% of the global population did in 2017) then an extra $2 would double your daily earnings. If, however, you were earning over $8 per day (like 11% of the global population in 2017) then that same extra $2 does not make much difference to you, at least not in terms of your quality of life.</p>
+        <p>Through this site I hope to shed light on this topic in more detail through the power of data visualisation. Some of the visualisations will be directly relateable to socio-economic development, other will have a loose connection. I hope that all will be of interest to someone.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-10 col-sm-10 col-md-8 col-lg-8 col-xl-8">
+        <h2>What's to come?</h2>
+        <br/><h5>(yes, I know the site looks a little bare at the moment)</h5>
+        <br/><ul>
+          <li> Inforgraphics about the issues. Inspired by <a href="https://www.gapminder.org/">Gapminder</a>, <a href="https://informationisbeautiful.net/beautifulnews/">Beautiful News</a> &amp; others!</li>
+          <li> Blog posts that you might find inspiring (or that might make you question everything). </li>
+          <li> Side projects that likely don't have much relevance at all. </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
-
-  <div class="main">
-    <h2>What is Jacob's Loga?</h2>
-    <br><h5>(Jacob's Ladder meets logarithmic growth)</h5>
-    <br><p>Jacob's Loga aims to show the correlation between wealth & gaining more wealth (as well as everything that comes from that). The name is a combination of Jacob's Ladder, where teams must work together to climb onto each level, and logarithmic growth, where the further you progress the easier a challenge gets.</p>
-
-    <br><h2>What's to come?</h2>
-    <br><h5>(yes, I know the site looks a little bare at the moment)</h5>
-    <br><p> - Inforgraphics about the issues. Inspired by <a href="https://www.gapminder.org/">Gapminder</a> & <a href="https://informationisbeautiful.net/beautifulnews/">Beautiful News</a></p>
-    <p> - Blog posts that you might find inspiring (or that might make you question everything) </p>
-    <p> - Side projects that likely don't have much relevance at all </p>
-
-  </div>
-
 
 </body>
 </html>
