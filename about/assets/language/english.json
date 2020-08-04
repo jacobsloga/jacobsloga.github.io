@@ -9,6 +9,6 @@
   "future" : {
     "heading" : "What's to come?",
     "subheading" : "(yes, I know the site looks a little bare at the moment)",
-    "text_body" : ['Inforgraphics about the issues. Inspired by <a href="https://www.gapminder.org/">Gapminder</a>, <a href="https://informationisbeautiful.net/beautifulnews/">Beautiful News</a> &amp; others!', "Blog posts that you might find inspiring (or that might make you question everything).", "Side projects that likely don't have much relevance at all."]
+    "text_body" : ["Inforgraphics about the issues. Inspired by <a href='https://www.gapminder.org/'>Gapminder</a>, <a href='https://informationisbeautiful.net/beautifulnews/'>Beautiful News</a> &amp; others!", "Blog posts that you might find inspiring (or that might make you question everything).", "Side projects that likely don't have much relevance at all."]
   }
 }
