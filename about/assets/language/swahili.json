@@ -1,14 +1,14 @@
 {
-  "title" : "Jacob's Loga - 1",
-  "navbar" : ["1", "2", "3"],
+  "title" : "Jacob's Loga - Kuhusu",
+  "navbar" : ["Nirudishe", "Hadithi na Tangi", "Jacob's Loga ni nini?"],
   "about" : {
-    "heading" : "1",
-    "subheading" : "(2)",
-    "text_body" : ["3", "4", "5"]
+    "heading" : "Jacob's Loga ni nini?",
+    "subheading" : "(Ngazi ya Jacob hukutana na Ukuaji wa Logarithmic)",
+    "text_body" : ["Kwanza, samahani kwa kiswahili changu kibaya. Jina la Jacob's Loga ni mchanganyiko wa ngazi ya Jacob, ambapo timu lazima zifanye kazi kwa pamoja ili kupanda ngazi inayofuata, na ukuaji wa logarithmic, ambapo unapoendelea zaidi changamoto inakua. Hii ni mfano wa maendeleo ya uchumi wa kijamii kwa sababu pesa zaidi unayo rahisi ni kupata pesa.", "Kukimbia umasikini ni ngumu sana kuliko inavyoonekana. Ikiwa unapata $2 kwa siku au chini (kama 11% ya idadi ya watu duniani walifanya mnamo 2017) basi $2 ya ziada ingeongeza mapato yako ya kila siku mara mbili. Ikiwa ulikuwa unapata zaidi ya $8 kwa siku (kama 11% ya idadi ya watu ulimwenguni mwaka 2017) kuliko $2 ya ziada haifanyi tofauti kubwa kwako.", "Natumahi kukufundisha juu ya mada hii kwa kutumia michoro. Baadhi ya michoro hizo zitahusiana na maendeleo ya kiuchumi na kijamii, na zingine hazitafanya. Natumai kuwa watapendezwa na mtu."]
   },
   "future" : {
-    "heading" : "1",
-    "subheading" : "(2)",
-    "text_body" : ["3", "4", "5"]
+    "heading" : "Nini kitakuja?",
+    "subheading" : "(ndio, najua inaonekana kidogo kwa sasa)",
+    "text_body" : ["Mchoro juu ya maswala. Imehamasishwa na <a href='https://www.gapminder.org/'>Gapminder</a>, <a href='https://informationisbeautiful.net/beautifulnews/'>Beautiful News</a> na wengine!", "Kuhamasisha machapisho ya blogi (ambayo inaweza kukufanya uhoji kila kitu)", "Miradi yenye umuhimu kidogo."]
   }
 }
