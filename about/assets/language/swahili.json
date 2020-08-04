@@ -1,0 +1,14 @@
+{
+  "title" : "Jacob's Loga - 1",
+  "navbar" : ["1", "2", "3"],
+  "about" : {
+    "heading" : "1",
+    "subheading" : "(2)",
+    "text_body" : ["3", "4", "5"]
+  },
+  "future" : {
+    "heading" : "1",
+    "subheading" : "(2)",
+    "text_body" : ["3", "4", "5"]
+  }
+}

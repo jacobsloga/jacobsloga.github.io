@@ -1,0 +1,14 @@
+{
+  "title" : "Jacob's Loga - About",
+  "navbar" : ["Take me Back", "Tales &amp; Tangents", "What is Jacob's Loga?"],
+  "about" : {
+    "heading" : "What is Jacob's Loga?",
+    "subheading" : "(Jacob's Ladder meets logarithmic growth)",
+    "text_body" : ["The name Jacob's Loga is a combination of Jacob's Ladder, where teams must work together to climb onto the next level, and logarithmic growth, where the further you progress the easier a challenge gets. This is used as a metaphor for socio-economic development i.e. the more money you have the easier it is to make money.", "As a consequence of this correlation, escaping poverty is a lot harder than the money needed to escape poverty suggests. If you earn $2 per day or less (like 11% of the global population did in 2017) then an extra $2 would double your daily earnings. If, however, you were earning over $8 per day (like 11% of the global population in 2017) then that same extra $2 does not make much difference to you, at least not in terms of your quality of life.", "Through this site I hope to shed light on this topic in more detail through the power of data visualisation. Some of the visualisations will be directly relateable to socio-economic development, other will have a loose connection. I hope that all will be of interest to someone."]
+  },
+  "future" : {
+    "heading" : "What's to come?",
+    "subheading" : "(yes, I know the site looks a little bare at the moment)",
+    "text_body" : ['Inforgraphics about the issues. Inspired by <a href="https://www.gapminder.org/">Gapminder</a>, <a href="https://informationisbeautiful.net/beautifulnews/">Beautiful News</a> &amp; others!', "Blog posts that you might find inspiring (or that might make you question everything).", "Side projects that likely don't have much relevance at all."]
+  }
+}

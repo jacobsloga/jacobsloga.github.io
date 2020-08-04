@@ -10,7 +10,6 @@ body {
   text-align: center;
 }
 
-
 /* Style the top navigation bar */
 .navbar {
   position: fixed;
@@ -39,6 +38,12 @@ body {
   color: #00b0f0;
 }
 
+/* Language icon */
+#language {
+  width: auto;
+  height: 4vh;
+}
+
 .container {
   margin: 0;
   position: absolute;
@@ -48,10 +53,11 @@ body {
 }
 
 .row {
+  position: relative;
   background-color: white;
   color: #00b0f0;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10vh;
   padding: 10px;
 }
 

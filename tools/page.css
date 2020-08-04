@@ -59,12 +59,13 @@ body {
   padding-top: 15px;
   padding-left: 15px;
 }
-/* 
+
 #underlay svg {
   position: relative;
-  width: 500px;
-  height: 90px;
-} */
+  width: 95vw;
+  height: 85vh;
+  background-color: white;
+}
 
 #overlay {
   position: absolute;
@@ -89,14 +90,8 @@ body {
 }
 
 .row {
-  background-color: white;
-  color: #00b0f0;
-  text-align: center;
-  margin-top: 5%;
   padding: 10px;
-}
-
-.col {
+  width: 95vw;
   margin: auto;
 }
 
