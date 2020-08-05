@@ -48,7 +48,6 @@ async function load_json(file_url) {
   return content;
 }
 
-// ToDo
 // Sub content in html
 function sub_content(content_dict) {
   document.title = content_dict.title;
