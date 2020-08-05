@@ -35,19 +35,20 @@ async function to_swahili() {
 
 // Read content from file
 async function load_json(file_url) {
-  var facts = "";
+  var content = "";
 
   await fetch(file_url)
   .then(res => res.json())
   .then(data => {
-    facts = data;
+    content = data;
   });
 
-  return facts;
+  return content;
 }
 
 // Sub content in html
 function sub_content(content_dict) {
+  document.title = content_dict.title;
   document.getElementById("nav-1").innerHTML = content_dict.navbar[0];
   document.getElementById("nav-2").innerHTML = content_dict.navbar[1];
   document.getElementById("nav-3").innerHTML = content_dict.navbar[2];

@@ -1,0 +1,12 @@
+{
+  "title" : "Jacob's Loga - Page",
+  "navbar" : ["Take me Back", "Tales &amp; Tangents", "What is Jacob's Loga?"],
+  "underlay" : {
+    "heading" : "Vis Title in English"
+  },
+  "overlay" : {
+    "heading" : "Vis Title in English",
+    "subheading" : "tl;dr for the vis",
+    "text_body" : "What is vis?"
+  }
+}

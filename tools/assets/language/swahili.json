@@ -1,0 +1,12 @@
+{
+  "title" : "Jacob's Loga - Page in Swahili",
+  "navbar" : ["Nirudishe", "Hadithi na Tangi", "Jacob's Loga ni nini?"],
+  "underlay" : {
+    "heading" : "Vis Title in Swahili"
+  },
+  "overlay" : {
+    "heading" : "Vis Title in Swahili",
+    "subheading" : "tl;dr for the vis",
+    "text_body" : "What is vis?"
+  }
+}

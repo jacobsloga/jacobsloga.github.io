@@ -6,7 +6,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="shortcut icon" href="/assets/logos/logo_v1_ladder.png"/>
-  <title>Jacob's Loga - Page</title>
+  <title>Jacob's Loga</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
@@ -16,6 +16,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src= "./language.js" defer="defer"></script>
 </head>
 
 <body>
@@ -23,9 +24,10 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm justify-content-center">
     <ul class="navbar-nav">
-      <li class="nav-item"><a href="/index.html">Take me Back</a></li>
-      <li class="nav-item"><a href="/tales-and-tangents/index.html">Tales &amp; Tangents</a></li>
-      <li class="nav-item"><a href="/about/index.html"> What is Jacob's Loga?</a></li>
+      <li class="nav-item"><a id="nav-1" href="/index.html">Take me Back</a></li>
+      <li class="nav-item"><a id="nav-2" href="/tales-and-tangents/index.html">Tales &amp; Tangents</a></li>
+      <li class="nav-item"><a id="nav-3" href="/about/index.html"> What is Jacob's Loga?</a></li>
+      <li class="nav-item"><a><img id="language" src="/assets/languages/swahili.png" alt="lang"></img></a></li>
     </ul>
   </nav>
 
@@ -34,10 +36,10 @@
 
     <!-- The Visualisation -->
     <div id="underlay">
-      <h2>Vis Title</h2>
+      <h2 id="underlay-heading">Vis Title</h2>
 
       <div class="row justify-content-center">
-        <svg xmlns="http://www.w3.org/2000/svg">
+        <svg xmlns="http://www.w3.org/2000/svg" id="underlay-vis">
 
         </svg>
       </div>
@@ -48,8 +50,9 @@
     <div id="overlay">
 
       <div class="v-mid">
-        <h2>Overview of the Vis</h2>
-        <p>This is the vis</p>
+        <h2 id="overlay-heading"></h2>
+        <h5 id="overlay-subheading"></h5>
+        <p id="overlay-text"></p>
       </div>
 
     </div>
