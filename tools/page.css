@@ -41,6 +41,12 @@ body {
   color: #00b0f0;
 }
 
+/* Language icon */
+#language {
+  width: auto;
+  height: 4vh;
+}
+
 .container {
   margin: 0;
   padding: 0;
