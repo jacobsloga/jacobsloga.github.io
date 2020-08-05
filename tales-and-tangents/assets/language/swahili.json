@@ -1,0 +1,31 @@
+{
+  "title" : "Jacob's Loga - Hadithi na Tangi",
+  "navbar" : ["Nirudishe", "Hadithi na Tangi", "Jacob's Loga ni nini?"],
+  "stories" : {
+    "jacobsloga" : {
+      "title" : "Jacobs Loga",
+      "text" : "Mchoro kuhusu ujumbe Jacobs Loga.",
+      "link" : "Inakuja Hivi Karibuni!"
+    },
+    "dddtdd" : {
+      "title" : "DDDTDD",
+      "text" : "Zana zinazoonekana zar Data-Driven-Design-Thinking-Double-Diamond.",
+      "link" : "Inakuja Hivi Karibuni!"
+    },
+    "covision" : {
+      "title" : "CoVision",
+      "text" : "Mchoro juu ya janga la COVID-19.",
+      "link" : "Inakuja Hivi Karibuni!"
+    },
+    "socialfootprint" : {
+      "title" : "Social Footprint",
+      "text" : "Chombo cha kuona kuona data yako ya media ya kijamii.",
+      "link" : "Inakuja Hivi Karibuni!"
+    },
+    "cybok" : {
+      "title" : "Cyb.OK",
+      "text" : "Vyombo vya kuona juu ya mfumo wa CyBok.",
+      "link" : "Inakuja Hivi Karibuni!"
+    }
+  }
+}

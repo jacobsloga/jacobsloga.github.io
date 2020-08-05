@@ -1,0 +1,31 @@
+{
+  "title" : "Jacob's Loga - Tales &amp; Tangets",
+  "navbar" : ["Take me Back", "Tales &amp; Tangents", "What is Jacob's Loga?"],
+  "stories" : {
+    "jacobsloga" : {
+      "title" : "Jacobs Loga",
+      "text" : "A series of visualisations about the mission Jacobs Loga.",
+      "link" : "Coming Soon!"
+    },
+    "dddtdd" : {
+      "title" : "DDDTDD",
+      "text" : "A series of visualisation tools for Data-Driven-Design-Thinking-Double-Diamond.",
+      "link" : "Coming Soon!"
+    },
+    "covision" : {
+      "title" : "CoVision",
+      "text" : "A series of visualisations about the COVID-19 pandemic.",
+      "link" : "Coming Soon!"
+    },
+    "socialfootprint" : {
+      "title" : "Social Footprint",
+      "text" : "A visualisation tool to see the data that social media companies store about you.",
+      "link" : "Coming Soon!"
+    },
+    "cybok" : {
+      "title" : "Cyb.OK",
+      "text" : "A series of visualisation tools about the CyBok framework.",
+      "link" : "Coming Soon!"
+    }
+  }
+}
