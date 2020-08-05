@@ -55,10 +55,10 @@ function sub_content(content_dict) {
   document.getElementById("nav-2").innerHTML = content_dict.navbar[1];
   document.getElementById("nav-3").innerHTML = content_dict.navbar[2];
 
-  const stories = ["jacobsloga", "dddtdd", "CoVision", "socialfootprint", "cybok"];
+  const stories = ["jacobsloga", "dddtdd", "covision", "socialfootprint", "cybok"];
   for (var s in stories) {
-    document.getElementById(s).getElementById("heading").innerHTML = content_dict.stories[s].title;
-    document.getElementById(s).getElementById("subheading").innerHTML = content_dict.stories[s].text;
-    document.getElementById(s).getElementById("link").innerHTML = content_dict.stories[s].link;
+    document.getElementById(stories[s] + "-heading").innerHTML = content_dict.stories[stories[s]].title;
+    document.getElementById(stories[s] + "-subheading").innerHTML = content_dict.stories[stories[s]].text;
+    document.getElementById(stories[s] + "-link").innerHTML = content_dict.stories[stories[s]].link;
   }
 }

@@ -46,9 +46,11 @@ body {
 
 .container {
   margin: 0;
-  position: relative;
+  margin-top: 5vh;
+  position: absolute;
   top: 45%;
   left: 45%;
+  -ms-transform: translate(-45%, -45%);
   transform: translate(-45%, -45%);
 }
 
@@ -72,6 +74,8 @@ li {
 /* Responsive layout - XLarge */
 h2{
   font-size: 1.5vw;
+  margin-top: 10vh;
+  padding-top: 10vh;
 }
 h5{
   font-size: 1.2vw;
@@ -84,6 +88,8 @@ p, li{
 @media screen and (max-width: 1500px) {
   h2{
     font-size: 2vw;
+    margin-top: 7vh;
+    padding-top: 7vh;
   }
   h5{
     font-size: 1.7vw;
@@ -97,6 +103,8 @@ p, li{
 @media screen and (max-width: 768px) {
   h2{
     font-size: 4vw;
+    margin-top: 5vh;
+    padding-top: 5vh;
   }
   h5{
     font-size: 3.3vw;
@@ -110,6 +118,8 @@ p, li{
 @media screen and (max-width: 56px) {
   h2{
     font-size: 5vw;
+    margin-top: 5vh;
+    padding-top: 5vh;
   }
   h5{
     font-size: 4vw;
