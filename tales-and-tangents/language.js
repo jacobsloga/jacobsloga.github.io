@@ -57,7 +57,7 @@ function sub_content(content_dict) {
   document.getElementById("nav-3").innerHTML = content_dict.navbar[2];
 
   const stories = ["jacobsloga", "dddtdd", "CoVision", "socialfootprint", "cybok"];
-  for s in stories {
+  for (s in stories) {
     document.getElementById(s).getElementById("heading").innerHTML = content_dict.stories[s].title;
     document.getElementById(s).getElementById("subheading").innerHTML = content_dict.stories[s].text;
     document.getElementById(s).getElementById("link").innerHTML = content_dict.stories[s].link;
