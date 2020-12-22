@@ -1,50 +1,8 @@
-/* Style the body */
-body {
-  margin: 0;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-color: #00b0f0;
-  color: white;
-  font-family: Tahoma, sans-serif;
-  text-align: center;
-}
-
-
 /* Style the top navigation bar */
 .navbar {
   height: 5vh;
   margin: 1px;
-  position: fixed;
-  width: 100vw;
-  font-size: 15px;
-  overflow: hidden;
-  background-color: #00b0f0;
   z-index: 1;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  margin-left: 2vw;
-  border-radius: 1vw;
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 1vw 1vh;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: white;
-  color: #00b0f0;
-}
-
-/* Language icon */
-#language {
-  width: auto;
-  height: 4vh;
 }
 
 .container {
@@ -109,54 +67,4 @@ body {
 
 li {
   text-align: left;
-}
-
-/* Responsive layout - XLarge */
-h2{
-  font-size: 1.5vw;
-}
-h5{
-  font-size: 1.2vw;
-}
-p, li{
-  font-size: 1vw;
-}
-
-/* Responsive layout - Large */
-@media screen and (max-width: 1500px) {
-  h2{
-    font-size: 2vw;
-  }
-  h5{
-    font-size: 1.7vw;
-  }
-  p, li{
-    font-size: 1.4vw;
-  }
-}
-
-/* Responsive layout - Medium */
-@media screen and (max-width: 768px) {
-  h2{
-    font-size: 4vw;
-  }
-  h5{
-    font-size: 3.3vw;
-  }
-  p, li{
-    font-size: 2.5vw;
-  }
-}
-
-/* Responsive layout - Small */
-@media screen and (max-width: 56px) {
-  h2{
-    font-size: 5vw;
-  }
-  h5{
-    font-size: 4vw;
-  }
-  p, li{
-    font-size: 3vw;
-  }
 }
